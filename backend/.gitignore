@@ -1,0 +1,25 @@
+# Entorno virtual de Python
+env/
+.venv/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración sensibles
+.env
+
+# Archivos de logs
+*.log
+logs/
+*.sqlite3
+
+# Configuración de IDEs
+.vscode/
+.idea/
+
+# Otros archivos generados
+.DS_Store
+*.bak
