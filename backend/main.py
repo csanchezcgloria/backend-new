@@ -12,6 +12,7 @@ app.add_middleware(
 )
 
 
+
 @app.get("/api/hello")
 def read_root():
     return {"message": "¡Hola desde el backend en Railway!"}
